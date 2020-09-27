@@ -76,6 +76,7 @@ public:
         else {
             std::cout << "Два комплексных числа не равны " << std::endl;
         }
+        return result;
     }
 
     void conj() {
@@ -104,6 +105,7 @@ public:
         else {
             std::cout << "Модули двух чисел равны" << std::endl;
         }
+        return result;
 
     }
 };
